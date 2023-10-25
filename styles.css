@@ -1,0 +1,297 @@
+body{
+    font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu{
+    display: block;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list-item{
+    display: inline-block;
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #373737;
+    margin-right: 30px;
+}
+
+
+.logo-container img{
+    width: 120px;
+}
+
+/* main banner */
+
+.main-banner img{
+    width: 100%;
+}
+
+/* features */
+
+
+.features{
+    margin: 50px 50px;
+}
+
+.features-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-item {  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.feature-image {
+    width:50px;
+    margin-right:10px;
+}
+
+.feature-item-text {
+    margin-right:10px;
+    font-size:22px;
+    font-weight: bolder;
+}
+
+.feature-text h3  {
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.feature-text p {
+    margin: 0;
+    color: #373737;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+/* collections */
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 450px;
+}
+
+.collection-description{
+    position:absolute;
+    top:115px;
+    left: 30px;
+}
+
+.collection-description-buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.collection-description-text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* packs */
+
+.packs {
+    margin: 20px 0 20px 20px;
+}
+
+.pack {
+    position: relative;
+    display: flex;
+}
+
+.pack-img {
+    max-width: 98.6%;;
+}
+
+.pack-info {
+    position:absolute;
+    margin: 50px 0 0 26px;
+    color: #373737;
+}
+
+.pack-epigraph {
+    font-size: 18px;
+    margin: 16px 0 16px 0;
+}
+
+.pack-title {
+    font-size: 48px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    max-width: 80%;
+    line-height: 1;
+    margin: 10px 0 10px 0;
+}
+
+.pack-description {
+    font-size: 18px;
+    margin: 16px 0 22px 0;
+}
+
+.pack-button {
+    background-color: #373737;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 26px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* new collection */
+
+.new-collection {
+    margin: 100px 0;
+    color: #373737;
+    text-align: center;
+}
+
+.new-collection-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.new-collection-info {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.new-collection-collage {
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.collage-main {
+    width: 100%;
+}
+
+.collage-main img {
+    width: 680px;
+}
+
+.collage-secondary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collage-secondary-item img {
+    width: 338px;
+}
+
+/* promo */
+
+.promo {
+    margin: 100px 0 60px;
+    color: #373737;
+    text-align: center;
+}
+
+.promo-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.promo-info {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.promo-info span {
+    text-transform: uppercase;
+}
+
+.promo-form {
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto; 
+}
+  
+.promo-input {
+    background: #fff;
+    color: #373737;
+    border: solid 1px #cfcaca;
+    padding: 15px;
+    font-size: 14px;
+    width: 500px;
+}
+
+/* footer */
+
+.footer {
+    width:100%;
+    height:50px;
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    color: #373737;
+    font-size: 12px;
+    align-items: center;
+}
+
+.copyright {
+    margin-left:20px;
+}
+
+.footer-links {
+    display:flex;
+}
+
+.footer-link {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #373737;
+}
